@@ -4,13 +4,13 @@ def first_name_method
 	#Allows the user to type their first name
 	puts ">"
 	#Defines the first name as the user input
-	first_name = $stdin.gets.chomp
+	first_name = gets.chomp
 end
 
 def last_name_method
 	print "What is your last name?"
 	puts ">"
-	last_name = $stdin.gets.chomp
+	last_name = gets.chomp
 end
 
 #Defines the method "names" as printing the first and last name given by the user	
