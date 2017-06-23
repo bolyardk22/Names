@@ -1,7 +1,7 @@
 #Defines the method "first_name_method"
 def first_name_method
 	print "What is your first name?"
-	#Allows the user to type their first name
+	#Moves the type box to the next line in powershell
 	puts ">"
 	#Defines the first name as the user input
 	first_name = gets.chomp
@@ -15,7 +15,7 @@ end
 
 #Defines the method "names" as printing the first and last name given by the user	
 def names
-	print "#{first_name_method} #{last_name_method}"
+	print "Hello, #{first_name_method} #{last_name_method}!"
 end
 
 #Runs the method "names"
