@@ -1,5 +1,22 @@
-first_name = "Katherine"
+#Defines the method "first_name_method"
+def first_name_method
+	print "What is your first name?"
+	#Allows the user to type their first name
+	puts ">"
+	#Defines the first name as the user input
+	first_name = $stdin.gets.chomp
+end
 
-last_name = "Collins"
+def last_name_method
+	print "What is your last name?"
+	puts ">"
+	last_name = $stdin.gets.chomp
+end
 
-puts "#{first_name} #{last_name}"
+#Defines the method "names" as printing the first and last name given by the user	
+def names
+	print "#{first_name_method} #{last_name_method}"
+end
+
+#Runs the method "names"
+names
