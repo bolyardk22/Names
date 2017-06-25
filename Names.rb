@@ -7,6 +7,12 @@ def first_name_method
 	first_name = gets.chomp
 end
 
+def middle_name_method
+	print "What is your middle name?"
+	puts ">"
+	middle_name = gets.chomp
+end
+
 def last_name_method
 	print "What is your last name?"
 	puts ">"
@@ -15,7 +21,7 @@ end
 
 #Defines the method "names" as printing the first and last name given by the user	
 def names
-	print "Hello, #{first_name_method} #{last_name_method}!"
+	print "Hello, #{first_name_method} #{middle_name_method} #{last_name_method}!"
 end
 
 #Runs the method "names"
